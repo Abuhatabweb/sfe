@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(  #d8deb4 , #8f7558);
+}
+
+img{
+    width: 70%;
+    mix-blend-mode: multiply;
+    margin-top: 50%;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+button{
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -1px 0px 20px 0px #73d750;
+    width: 150px;
+    margin: auto;
+    background-color: #b147c3;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
